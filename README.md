@@ -426,7 +426,3 @@ scanstate.exe /genconfig:Config.xml /i:migdocs.xml /i:migapp.xml
 - [ScanState syntax, Microsoft Learn](https://learn.microsoft.com/en-us/windows/deployment/usmt/usmt-scanstate-syntax)
 - [LoadState syntax, Microsoft Learn](https://learn.microsoft.com/en-us/windows/deployment/usmt/usmt-loadstate-syntax)
 - [USMT exit codes, Microsoft Learn](https://learn.microsoft.com/en-us/windows/deployment/usmt/usmt-return-codes)
-
-## Licence
-
-Add a licence of your choice (for example MIT) in a `LICENSE` file.
