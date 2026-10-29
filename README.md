@@ -59,28 +59,6 @@ Migration behaviour is controlled by XML rule files:
 
 ---
 
-## Repository layout
-
-```
-.
-├── README.md
-├── usmt/
-│   ├── amd64/            # Copied from the Windows ADK
-│   ├── x86/
-│   └── arm64/
-├── xml/
-│   ├── CustomRules.xml   # Organisation-specific rules
-│   └── Config.xml        # Generated config (optional)
-├── scripts/
-│   ├── capture.cmd
-│   └── restore.cmd
-└── logs/                 # Collected logs per device (do not commit)
-```
-
-> **Tip:** Add `logs/` and `usmt/` to `.gitignore`. Do not commit USMT binaries or migration logs, as logs can contain usernames and file paths.
-
----
-
 ## Step 1: Obtain USMT
 
 1. Download the **Windows ADK** matching your target Windows version from Microsoft.
